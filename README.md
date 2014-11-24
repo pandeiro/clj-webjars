@@ -1,10 +1,12 @@
-# clj-webjars [![Travis CI status](https://secure.travis-ci.org/jeluard/clj-webjars.png)](http://travis-ci.org/#!/jeluard/clj-webjars/builds)
+# clj-webjars (fork)
+
+(This is a fork to produce a clojars artifact with recent patches. Original repo: [clj-webjars][clj-webjars])
 
 A [ring](https://github.com/ring-clojure/ring) wrapper to easily serve [WebJars.org](webjars.org) assets.
 
 ## Installation
 
-Add ```[clj-webjars "0.9.0"]``` to your leiningen dependencies.
+```[pandeiro/clj-webjars "0.9.1"]```
 
 ## Usage
 
@@ -53,3 +55,5 @@ curl http://localhost:3000/assets/css/bootstrap.min.css
 Copyright © 2013 Julien Eluard.
 
 Distributed under the Eclipse Public License, the same as Clojure.
+
+[clj-webjars]: https://github.com/jeluard/clj-webjars
